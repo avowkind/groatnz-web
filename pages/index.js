@@ -62,15 +62,21 @@ const Base = () =>
     </div>
     <div className="row bottom">
       <div className="two-thirds column">
-        <p>I design and write software to solve real world problems.</p>
-        <p>I listen and focus on your needs and help guide you through the stages 
-          that take an idea from conception to realisation</p>
-        <p>I specialise on the challenges facing scientists and researchers having worked with multiple research organisations including NIWA, Plant and Food, University of Auckland.</p>
-        <p>I have run my own company and led a start-up mobile phone company software team through a high growth period. I have created and developed multiple agile cross functional teams, including a major open source project, managed DevOps processes, CI/CD and modernised IT platforms including deployment to cloud services.</p>
-        <p>I now mainly work from my home on Waiheke Island and focus on software development projects supporting environmental and social well being. </p>
-        <p>I am available for mentoring of both early career and advancing software developers and research software engineers.</p>
-        <p>I give talks and run workshops on various technologies.</p>
-        <p>When not coding I sing and act with the local theatre company.</p>
+      <ul>
+        <li>I design and write software to solve real world problems.</li>
+        <li>I listen and focus on your needs and help guide you through the stages 
+          that take an idea from conception to realisation</li>
+        <li>I specialise in the challenges facing scientists and researchers having 
+          worked with multiple research organisations including NIWA, Plant and Food, and the University of Auckland.</li>
+        <li>I have run my own company and led a start-up mobile phone company software team through a high growth period. </li>
+        <li>I have created and developed multiple agile cross-functional teams and led a major open-source project with hundreds of contributors.</li>
+        <li>I now work from my home on Waiheke Island and focus on
+          projects for environmental science and social well being. </li>
+        <li>I am available for mentoring of software developers 
+          and research software engineers.</li>
+        <li>I give talks and run workshops on various technologies.</li>
+        <li>When not coding I sing and act with the local theatre company.</li>
+      </ul>
       </div>
       <div className="one-third column">
         <h4>Education</h4>
