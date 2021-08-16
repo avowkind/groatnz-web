@@ -5,32 +5,32 @@ import Panel from '../components/panel'
 const Base = () => 
 <>
 <header>
-  <div class="container">
+  <div className="container">
     
 
-    <div class="row">    
-      <div class="twelve columns">
+    <div className="row">    
+      <div className="twelve columns">
         <h1>Andrew Watkins <br></br><small>Code &#x2723; Software Design &#x2723; Full Stack &#x2723; Data Science</small></h1>
         <h4>Science solutions designer and product development. Guiding researchers from lab concept to production systems. </h4>
         <h4>
           30+ years of Python, Javascript, C/C++ across science, medicine, engineering, process control, mobile, 
           including sensor networks, SCADA, Data acquisition, Analysis, &amp; Visualisation. 
         </h4>
-        <a href="mailto:andrew@groat.nz" class="btn-gold">Contact me</a> 
+        <a href="mailto:andrew@groat.nz" className="btn-gold">Contact me</a> 
         <p>&nbsp;</p>
       </div>
     </div>
   </div>
 </header>
 
-<section class="services">
-  <div class="container">
-    <div class="row">
-      <div class="twelve columns">
+<section className="services">
+  <div className="container">
+    <div className="row">
+      <div className="twelve columns">
         <h3>Expertise</h3>
       </div>
     </div>
-    <div class="row">
+    <div className="row">
       <Panel href="/tech-skills" title="Software Development">
           <p>Full stack web applications with HTML/CSS, React/Node/Javascript, Python and other modern languages. </p>
           <p>Web UI, APIs, security, identity management, backend, database (MongoDB & SQL), Dev/Ops, Docker, AWS cloud</p>
@@ -40,7 +40,7 @@ const Base = () =>
           <p>Design and development of scalable multi-service architectures deployed to HPC, Clusters or Cloud.</p>
       </Panel>
     </div>
-    <div class="row">
+    <div className="row">
       <Panel href="#" title="Data Acquisition and Control">
           <p>Sensor Networks, Data Loggers, SCADA, Instruments, Control systems.</p>
           <p>Internet of Things (IoT), Telemetry</p>
@@ -53,15 +53,15 @@ const Base = () =>
   </div>
 </section>
 
-<section class="about">
-  <div class="container">
-    <div class="row">
-      <div class="twelve columns">
+<section className="about">
+  <div className="container">
+    <div className="row">
+      <div className="twelve columns">
         <h3>About Andrew</h3>
       </div>
     </div>
-    <div class="row bottom">
-      <div class="two-thirds column">
+    <div className="row bottom">
+      <div className="two-thirds column">
         <p>I design and write software to solve real world problems.</p>
         <p>I listen and focus on your needs and help guide you through the stages 
           that take an idea from conception to realisation</p>
@@ -72,7 +72,7 @@ const Base = () =>
         <p>I give talks and run workshops on various technologies.</p>
         <p>When not coding I sing and act with the local theatre company.</p>
       </div>
-      <div class="one-third column">
+      <div className="one-third column">
         <h4>Education</h4>
         <ul>
           <li>BSc Combined Honours, Computer Science &amp; Geology</li>

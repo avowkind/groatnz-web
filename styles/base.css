@@ -11,6 +11,8 @@
   --button-bg-color: steelblue;
   --link-color: steelblue;
   --button-color: #f4ba04;
+  --groat-bg-color: #f8F8F0;  
+  --groat-color: #809080;
 
 }
 
@@ -224,8 +226,44 @@ header {
   margin-bottom: 0;
 }
 
+nav.container {
+  position: sticky;
+  left: 20px;
+  z-index: 2;
+  top:0px;
+  /* margin-top: 0; */
+  /* background-colour:var(--button-color); */
+}
 
-
+nav a {
+  background-color:var(--groat-bg-color);
+  background-image: url('/images/groat-small.svg') no-repeat fixed left / cover; 
+  color:var(--groat-color);
+  padding: 4px;
+  border-radius: 0px 0px 15px 15px;
+  margin-top:0;
+  font-size:2rem;
+  text-decoration-line: none;
+  display:inline-block;
+  min-width: 32rem;
+  transition: all 0.2s ease-in-out; 
+  box-shadow: 5 5px white;
+}
+nav a:hover {
+  color:var(--dark-text-color);
+  box-shadow: 0 -8px white;
+  -webkit-transform: scale(1.15);
+      -ms-transform: scale(1.15);
+          transform: scale(1.15);
+}
+nav .logo {
+  display: inline-block;
+  vertical-align: top;
+  width: 30px;
+  height: 30px;
+  margin-right: 1rem;
+  margin-top: 2px;    /* if you want it vertically middle of the navbar. */
+}
 
 /* MEDIA QUERIES STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
